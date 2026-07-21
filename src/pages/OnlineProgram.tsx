@@ -121,7 +121,7 @@ const FAQItem: React.FC<{ q: string, a: string }> = ({ q, a }) => {
 
 export const OnlineProgram = () => {
   useEffect(() => {
-    document.title = "비대면 프로그램 | 대구 음주운전 재범방지 교육심리상담센터";
+    document.title = "비대면 프로그램 | 대구음주운전재범방지교육상담센터";
     let metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
       metaDescription.setAttribute("content", "대구 음주운전 비대면 상담 전문센터. 재범방지 교육, 심리상담, 양형자료 준비까지 체계적으로 지원합니다.");
@@ -180,7 +180,7 @@ export const OnlineProgram = () => {
             className="flex flex-col sm:flex-row gap-4 justify-center"
           >
             <a 
-              href="https://map.naver.com/p/entry/place/1608572380?c=15.00,0,0,0,dh" 
+              href="https://map.naver.com/p/entry/place/2056101308?c=15.00,0,0,0,dh&placePath=%2Fticket%3FfromPanelNum%3D1%26additionalHeight%3D76%26timestamp%3D202607211725%26locale%3Dko%26svcName%3Dmap_pcv5" 
               target="_blank"
               rel="noopener noreferrer"
               className="px-10 py-4 bg-primary text-white font-bold rounded-full hover:bg-primary/90 transition-colors shadow-lg shadow-primary/20"
@@ -188,10 +188,10 @@ export const OnlineProgram = () => {
               상담 예약하기
             </a>
             <a 
-              href="tel:0507-1359-0830" 
+              href="tel:0507-1421-9002" 
               className="px-10 py-4 bg-white/10 text-white font-bold rounded-full hover:bg-white/20 transition-colors backdrop-blur-sm border border-white/10"
             >
-              빠른 전화 문의 (0507-1359-0830)
+              빠른 전화 문의 (0507-1421-9002)
             </a>
           </motion.div>
         </div>
@@ -400,7 +400,7 @@ export const OnlineProgram = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a 
-                href="https://map.naver.com/p/entry/place/1608572380?c=15.00,0,0,0,dh" 
+                href="https://map.naver.com/p/entry/place/2056101308?c=15.00,0,0,0,dh&placePath=%2Fticket%3FfromPanelNum%3D1%26additionalHeight%3D76%26timestamp%3D202607211725%26locale%3Dko%26svcName%3Dmap_pcv5" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-10 py-5 bg-white text-primary font-black rounded-full hover:bg-slate-50 transition-all shadow-lg"
@@ -408,10 +408,10 @@ export const OnlineProgram = () => {
                 대구 음주운전 상담 예약하기
               </a>
               <a 
-                href="tel:0507-1359-0830" 
+                href="tel:0507-1421-9002" 
                 className="px-10 py-5 bg-primary-foreground/10 text-white font-black rounded-full hover:bg-primary-foreground/20 transition-all border border-white/20"
               >
-                빠른 전화 문의 (0507-1359-0830)
+                빠른 전화 문의 (0507-1421-9002)
               </a>
             </div>
           </div>

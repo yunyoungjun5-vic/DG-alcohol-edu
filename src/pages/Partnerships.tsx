@@ -9,7 +9,7 @@ export const Partnerships = () => {
     header: {
       category: "Partnership & Networks",
       title: "협력 · 협약 · 출강 기관",
-      description: "대구 음주운전 재범방지 교육심리상담센터는 27년 이상의 임상 경험과 200여 개 공공기관 · 법률기관 · 교육기관 · 기업과의 협력 실적을 기반으로 신뢰할 수 있는 전문 상담과 재범방지 교육을 제공하고 있습니다."
+      description: "대구음주운전재범방지교육상담센터는 27년 이상의 임상 경험과 200여 개 공공기관 · 법률기관 · 교육기관 · 기업과의 협력 실적을 기반으로 신뢰할 수 있는 전문 상담과 재범방지 교육을 제공하고 있습니다."
     },
     // Category 1: 공공기관 및 유관기관 (17 Logo Slots, updated with provided Cloudinary URLs & official homepage links)
     publicAgencies: [
@@ -232,7 +232,7 @@ export const Partnerships = () => {
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <a
-              href="https://map.naver.com/p/entry/place/1608572380?c=15.00,0,0,0,dh"
+              href="https://map.naver.com/p/entry/place/2056101308?c=15.00,0,0,0,dh&placePath=%2Fticket%3FfromPanelNum%3D1%26additionalHeight%3D76%26timestamp%3D202607211725%26locale%3Dko%26svcName%3Dmap_pcv5"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-primary text-white font-extrabold text-sm px-8 py-3.5 rounded-full shadow-lg shadow-primary/20 hover:bg-secondary transition-all transform hover:-translate-y-0.5 active:translate-y-0"

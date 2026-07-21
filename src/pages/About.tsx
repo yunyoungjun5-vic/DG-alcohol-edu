@@ -38,7 +38,7 @@ export const About = () => {
             센터 소개
           </motion.h1>
           <p className="text-slate-400 text-xl lg:text-2xl max-w-2xl mx-auto font-bold leading-relaxed">
-            대구 음주운전 재범방지 교육심리상담센터는 <br />
+            대구음주운전재범방지교육상담센터는 <br />
             비난보다는 변화를, 처벌보다는 회복을 지향합니다.
           </p>
         </div>
@@ -86,7 +86,7 @@ export const About = () => {
               </h2>
               <div className="space-y-6 lg:space-y-8 text-lg lg:text-xl text-slate-700 font-bold leading-relaxed italic">
                 <p>
-                  안녕하십니까. 대구 음주운전 재범방지 교육심리상담센터 대표원장
+                  안녕하십니까. 대구음주운전재범방지교육상담센터 대표원장
                   윤영준입니다. 음주운전은 분명 사회적으로 용납되기 어려운
                   잘못입니다. 하지만 우리는 그 잘못 뒤에 숨겨진 개인의 고통과
                   심리적 취약성에도 주목합니다.

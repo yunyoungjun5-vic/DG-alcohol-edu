@@ -1735,16 +1735,19 @@ export const MediaCoverage = () => {
             </h3>
             <div className="space-y-4 text-slate-600 text-sm sm:text-base leading-relaxed font-medium">
               <p>
-                본 페이지는 윤영준 대표원장의 방송 출연, 심리상담 관련 인터뷰, 공공기관 및 교육기관 강연, 교범자문 교육 활동 등을 기록한 공식 아카이브입니다.
+                본 페이지는 윤영준 대표원장의 방송 출연, 심리상담 관련 인터뷰, 공공기관 및 교육기관 강연, 재범방지 교육 활동 등을 기록한 공식 아카이브입니다.
               </p>
               <p>
-                윤영준 대표원장은 <strong className="text-primary font-bold">MBC, KBS, EBS, JTBC, MBN, tvN, 내외뉴스, TBN 교통방송, 연합뉴스</strong> 등 국내 주요 방송사 및 언론에 80회 이상 출연하며 심리상담 전문가로서 다양한 현장에서 사람들의 이야기를 함께 나누어 왔습니다.
+                윤영준 대표원장은 <strong className="text-primary font-bold">MBC, KBS, EBS, JTBC, MBN, tvN, 채널A, TV조선, TBN 교통방송, 연합뉴스</strong> 등 국내 주요 방송사 및 언론에 80회 이상 출연하며 심리상담 전문가로서 다양한 현장에서 사람들의 이야기를 함께 나누어 왔습니다.
               </p>
               <p>
-                특히 <strong className="text-slate-800 font-bold">KBS 라디오 「4시에 임성필입니다」, 「생방송 정보센터」, TBN 교통방송 「Talk 터놓고 말해요」, 「가족의 세계 (심리코너)」</strong> 등 여러 프로그램 고정 세션을 담당하여, 누구나 공감할 수 있는 언어로 마음의 아픔을 이해하고 풀어내는 시간을 이어왔습니다.
+                특히 <strong className="text-slate-800 font-bold">KBS 라디오 「4시에 힐링타임」, 「생방송 정보스펀지」, TBN 교통방송 「Talk 터놓고 말해요」, 「가족의 세계(심리코너)」</strong> 등 여러 프로그램을 8년 이상 진행하며, 누구나 공감할 수 있는 언어로 마음을 이해하고 풀어내는 시간을 이어왔습니다.
+              </p>
+              <p>
+                이러한 방송과 강연은 단순한 정보 전달을 넘어, 실제 삶에 도움이 되는 방향을 함께 찾아가는 과정이었습니다.
               </p>
               <p className="text-slate-400 text-xs sm:text-sm pt-4 border-t border-slate-200/60">
-                일부 자료는 현재도 유튜브 재방영 및 온라인을 통해 확인하실 수 있습니다.
+                일부 자료는 현재도 재방영 및 온라인을 통해 확인할 수 있습니다.
               </p>
             </div>
           </div>
@@ -1761,7 +1764,7 @@ export const MediaCoverage = () => {
             </div>
             <div className="hidden sm:block w-px h-12 bg-slate-200 self-center"></div>
             <div>
-              <div className="text-3xl sm:text-5xl font-black text-primary mb-2">150+</div>
+              <div className="text-3xl sm:text-5xl font-black text-primary mb-2">1500+</div>
               <div className="text-xs font-bold text-slate-400 uppercase tracking-widest">Public Lectures</div>
             </div>
             <div className="hidden sm:block w-px h-12 bg-slate-200 self-center"></div>

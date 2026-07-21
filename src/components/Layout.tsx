@@ -63,7 +63,7 @@ export const Header = () => {
               용산큰못 2길 25, 4층
             </span>
             <span className="flex items-center gap-1.5">
-              <Phone size={12} className="text-primary" /> 0507-1359-0830
+              <Phone size={12} className="text-primary" /> 0507-1421-9002
             </span>
           </div>
         </div>
@@ -81,7 +81,7 @@ export const Header = () => {
               </div>
               <div className="flex flex-col">
                 <span className="text-xl font-extrabold tracking-tight text-slate-900 leading-none">
-                  대구 음주운전 재범방지 센터
+                  대구음주운전재범방지교육상담센터
                 </span>
                 <span className="text-[9px] text-primary font-bold uppercase tracking-[0.2em] mt-1.5">
                   Daegu DUI Recidivism Prevention Center
@@ -122,7 +122,7 @@ export const Header = () => {
                 </div>
               ))}
               <a
-                href="https://map.naver.com/p/entry/place/1608572380?c=15.00,0,0,0,dh"
+                href="https://map.naver.com/p/entry/place/2056101308?c=15.00,0,0,0,dh&placePath=%2Fticket%3FfromPanelNum%3D1%26additionalHeight%3D76%26timestamp%3D202607211725%26locale%3Dko%26svcName%3Dmap_pcv5"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-primary text-white px-7 py-3 rounded-full text-sm font-bold hover:bg-secondary transition-all shadow-xl shadow-primary/20 flex items-center gap-2 transform hover:-translate-y-0.5 active:translate-y-0"
@@ -178,7 +178,7 @@ export const Header = () => {
                 </div>
               ))}
               <a
-                href="https://map.naver.com/p/entry/place/1608572380?c=15.00,0,0,0,dh"
+                href="https://map.naver.com/p/entry/place/2056101308?c=15.00,0,0,0,dh&placePath=%2Fticket%3FfromPanelNum%3D1%26additionalHeight%3D76%26timestamp%3D202607211725%26locale%3Dko%26svcName%3Dmap_pcv5"
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => setIsOpen(false)}
@@ -203,7 +203,7 @@ export const Footer = () => {
             <div className="flex items-center gap-2 mb-6">
               <Shield className="text-primary" size={32} />
               <span className="text-2xl font-bold text-white">
-                대구 음주운전 재범방지 교육심리상담센터
+                대구음주운전재범방지교육상담센터
               </span>
             </div>
             <p className="text-slate-400 max-w-md leading-relaxed">
@@ -317,24 +317,37 @@ export const Footer = () => {
             <h4 className="text-white font-bold mb-6">Contact Info</h4>
             <ul className="space-y-3 text-sm">
               <li className="flex gap-2">
-                <span className="text-primary font-bold">ADDR.</span>
+                <span className="text-primary font-bold">주소.</span>
                 <span>대구광역시 달서구 용산큰못 2길 25, 4층</span>
               </li>
               <li className="flex gap-2">
-                <span className="text-primary font-bold">TEL.</span>
-                <span>0507-1359-0830</span>
+                <span className="text-primary font-bold">대표.</span>
+                <span>윤영준</span>
               </li>
               <li className="flex gap-2">
-                <span className="text-primary font-bold">TIME.</span>
+                <span className="text-primary font-bold">사업자번호.</span>
+                <span>258-95-02035</span>
+              </li>
+              <li className="flex gap-2">
+                <span className="text-primary font-bold">전화.</span>
+                <span>0507-1421-9002</span>
+              </li>
+              <li className="flex gap-2">
+                <span className="text-primary font-bold">운영시간.</span>
                 <span>평일 09:00 - 20:00 (주말 예약제)</span>
               </li>
             </ul>
           </div>
         </div>
         <div className="pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-slate-500">
-          <p>
-            © 2026 대구 음주운전 재범방지 교육심리상담센터. All Rights Reserved.
-          </p>
+          <div className="flex flex-col gap-1 text-center md:text-left">
+            <p>
+              © 2026 대구음주운전재범방지교육상담센터. All Rights Reserved.
+            </p>
+            <p className="text-slate-500 font-medium">
+              대표자: 윤영준 | 사업자등록번호: 258-95-02035
+            </p>
+          </div>
           <div className="flex gap-6">
             <a href="#" className="hover:text-white">
               개인정보처리방침

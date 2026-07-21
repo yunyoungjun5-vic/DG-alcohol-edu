@@ -16,7 +16,7 @@ export const DirectorProfile = () => {
             원장 프로필
           </h1>
           <p className="text-xl text-slate-600 font-medium leading-relaxed break-keep lg:whitespace-nowrap">
-            대구 음주운전 재범방지 교육심리상담센터는 단순한 처벌이 아닌 행동 변화와 재범 방지를 목표로 합니다.
+            대구음주운전재범방지교육상담센터는 단순한 처벌이 아닌 행동 변화와 재범 방지를 목표로 합니다.
           </p>
         </motion.div>
       </div>
@@ -87,35 +87,35 @@ export const DirectorProfile = () => {
             <Section
               title="전문 분야"
               icon={<Award className="text-primary" size={24} />}
-              bg="bg-emerald-50/50 border border-emerald-100"
+              bg="bg-emerald-50/80 border-2 border-emerald-200/80 shadow-md"
             >
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <div className="bg-white p-6 rounded-2xl shadow-sm">
-                  <h4 className="font-bold text-slate-900 mb-4 flex items-center gap-2">
-                    <span className="w-2 h-2 rounded-full bg-primary"></span>
+                <div className="bg-white p-8 rounded-3xl shadow-sm border border-emerald-100 hover:shadow-md transition-shadow duration-300">
+                  <h4 className="font-extrabold text-slate-900 text-xl lg:text-2xl mb-5 flex items-center gap-2.5">
+                    <span className="w-2.5 h-2.5 rounded-full bg-emerald-500 shrink-0"></span>
                     음주운전 재범방지 심리상담
                   </h4>
-                  <ul className="space-y-2 text-sm text-slate-600">
-                    <ListItem>음주운전 초범 및 재범 사례 상담</ListItem>
-                    <ListItem>음주습관 분석 및 절주 프로그램</ListItem>
-                    <ListItem>충동조절 및 자기통제력 향상</ListItem>
-                    <ListItem>음주 유발 요인 분석</ListItem>
-                    <ListItem>스트레스 관리 훈련</ListItem>
-                    <ListItem>재범방지 행동계획 수립</ListItem>
-                    <ListItem>법원·검찰 제출용 상담 자료 준비</ListItem>
+                  <ul className="space-y-3.5">
+                    <ListItem className="text-base md:text-lg text-slate-700 font-medium">음주운전 초범 및 재범 사례 상담</ListItem>
+                    <ListItem className="text-base md:text-lg text-slate-700 font-medium">음주습관 분석 및 절주 프로그램</ListItem>
+                    <ListItem className="text-base md:text-lg text-slate-700 font-medium">충동조절 및 자기통제력 향상</ListItem>
+                    <ListItem className="text-base md:text-lg text-slate-700 font-medium">음주 유발 요인 분석</ListItem>
+                    <ListItem className="text-base md:text-lg text-slate-700 font-medium">스트레스 관리 훈련</ListItem>
+                    <ListItem className="text-base md:text-lg text-slate-700 font-medium">재범방지 행동계획 수립</ListItem>
+                    <ListItem className="text-base md:text-lg text-slate-700 font-medium">법원·검찰 제출용 상담 자료 준비</ListItem>
                   </ul>
                 </div>
-                <div className="bg-white p-6 rounded-2xl shadow-sm">
-                  <h4 className="font-bold text-slate-900 mb-4 flex items-center gap-2">
-                    <span className="w-2 h-2 rounded-full bg-primary"></span>
+                <div className="bg-white p-8 rounded-3xl shadow-sm border border-emerald-100 hover:shadow-md transition-shadow duration-300">
+                  <h4 className="font-extrabold text-slate-900 text-xl lg:text-2xl mb-5 flex items-center gap-2.5">
+                    <span className="w-2.5 h-2.5 rounded-full bg-emerald-500 shrink-0"></span>
                     중독 및 행동교정
                   </h4>
-                  <ul className="space-y-2 text-sm text-slate-600">
-                    <ListItem>알코올 사용 문제</ListItem>
-                    <ListItem>인터넷 및 행동중독</ListItem>
-                    <ListItem>충동조절 문제</ListItem>
-                    <ListItem>분노조절</ListItem>
-                    <ListItem>스트레스 관리</ListItem>
+                  <ul className="space-y-3.5">
+                    <ListItem className="text-base md:text-lg text-slate-700 font-medium">알코올 사용 문제</ListItem>
+                    <ListItem className="text-base md:text-lg text-slate-700 font-medium">인터넷 및 행동중독</ListItem>
+                    <ListItem className="text-base md:text-lg text-slate-700 font-medium">충동조절 문제</ListItem>
+                    <ListItem className="text-base md:text-lg text-slate-700 font-medium">분노조절</ListItem>
+                    <ListItem className="text-base md:text-lg text-slate-700 font-medium">스트레스 관리</ListItem>
                   </ul>
                 </div>
               </div>
@@ -190,44 +190,69 @@ export const DirectorProfile = () => {
 
             <Section
               title="주요 프로그램"
-              icon={
-                <Briefcase
-                  className="text-primary"
-                  size={24}
-                  bg="bg-blue-50/50 border border-blue-100"
-                />
-              }
+              icon={<Briefcase className="text-primary" size={24} />}
+              bg="bg-blue-50/80 border-2 border-blue-200/80 shadow-md"
             >
-              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-                <div className="bg-white p-5 rounded-2xl shadow-sm border border-slate-100">
-                  <h4 className="font-bold text-slate-900 mb-3 text-sm">
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                <div className="bg-white p-6 sm:p-7 rounded-3xl shadow-sm border border-blue-100 hover:shadow-md transition-shadow duration-300">
+                  <h4 className="font-extrabold text-blue-950 text-lg md:text-xl mb-4 pb-2 border-b border-blue-100/30">
                     음주운전 재범방지 심리상담
                   </h4>
-                  <ul className="space-y-1.5 text-sm text-slate-600">
-                    <li>· 사고 원인 분석</li>
-                    <li>· 음주패턴 분석</li>
-                    <li>· 고위험 상황 관리</li>
-                    <li>· 재발방지 전략 수립</li>
-                    <li>· 생활습관 개선</li>
+                  <ul className="space-y-3">
+                    <li className="flex items-center gap-2 text-base md:text-lg text-slate-700 font-medium">
+                      <span className="w-1.5 h-1.5 rounded-full bg-blue-500 shrink-0"></span>
+                      사고 원인 분석
+                    </li>
+                    <li className="flex items-center gap-2 text-base md:text-lg text-slate-700 font-medium">
+                      <span className="w-1.5 h-1.5 rounded-full bg-blue-500 shrink-0"></span>
+                      음주패턴 분석
+                    </li>
+                    <li className="flex items-center gap-2 text-base md:text-lg text-slate-700 font-medium">
+                      <span className="w-1.5 h-1.5 rounded-full bg-blue-500 shrink-0"></span>
+                      고위험 상황 관리
+                    </li>
+                    <li className="flex items-center gap-2 text-base md:text-lg text-slate-700 font-medium">
+                      <span className="w-1.5 h-1.5 rounded-full bg-blue-500 shrink-0"></span>
+                      재발방지 전략 수립
+                    </li>
+                    <li className="flex items-center gap-2 text-base md:text-lg text-slate-700 font-medium">
+                      <span className="w-1.5 h-1.5 rounded-full bg-blue-500 shrink-0"></span>
+                      생활습관 개선
+                    </li>
                   </ul>
                 </div>
-                <div className="bg-white p-5 rounded-2xl shadow-sm border border-slate-100">
-                  <h4 className="font-bold text-slate-900 mb-3 text-sm">
+                <div className="bg-white p-6 sm:p-7 rounded-3xl shadow-sm border border-blue-100 hover:shadow-md transition-shadow duration-300">
+                  <h4 className="font-extrabold text-blue-950 text-lg md:text-xl mb-4 pb-2 border-b border-blue-100/30">
                     음주운전 재범방지 교육
                   </h4>
-                  <ul className="space-y-1.5 text-sm text-slate-600">
-                    <li>· 음주운전 심리 이해</li>
-                    <li>· 재범 위험성 교육</li>
-                    <li>· 충동조절 훈련</li>
+                  <ul className="space-y-3">
+                    <li className="flex items-center gap-2 text-base md:text-lg text-slate-700 font-medium">
+                      <span className="w-1.5 h-1.5 rounded-full bg-blue-500 shrink-0"></span>
+                      음주운전 심리 이해
+                    </li>
+                    <li className="flex items-center gap-2 text-base md:text-lg text-slate-700 font-medium">
+                      <span className="w-1.5 h-1.5 rounded-full bg-blue-500 shrink-0"></span>
+                      재범 위험성 교육
+                    </li>
+                    <li className="flex items-center gap-2 text-base md:text-lg text-slate-700 font-medium">
+                      <span className="w-1.5 h-1.5 rounded-full bg-blue-500 shrink-0"></span>
+                      충동조절 훈련
+                    </li>
                   </ul>
                 </div>
-                <div className="bg-white p-5 rounded-2xl shadow-sm border border-slate-100">
-                  <h4 className="font-bold text-slate-900 mb-3 text-sm">
+                <div className="bg-white p-6 sm:p-7 rounded-3xl shadow-sm border border-blue-100 hover:shadow-md transition-shadow duration-300">
+                  <h4 className="font-extrabold text-blue-950 text-lg md:text-xl mb-4 pb-2 border-b border-blue-100/30">
                     기타 프로그램
                   </h4>
-                  <ul className="space-y-1.5 text-sm text-slate-600">
-                    <li>· 절주 및 금주 전략</li>
-                    <li>· 가족관계 회복 프로그램</li>
+                  <ul className="space-y-3">
+                    <li className="flex items-center gap-2 text-base md:text-lg text-slate-700 font-medium">
+                      <span className="w-1.5 h-1.5 rounded-full bg-blue-500 shrink-0"></span>
+                      절주 및 금주 전략
+                    </li>
+                    <li className="flex items-center gap-2 text-base md:text-lg text-slate-700 font-medium">
+                      <span className="w-1.5 h-1.5 rounded-full bg-blue-500 shrink-0"></span>
+                      가족관계 회복 프로그램
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -261,9 +286,9 @@ const Section = ({
   </div>
 );
 
-const ListItem = ({ children }: { children: React.ReactNode }) => (
+const ListItem = ({ children, className = "" }: { children: React.ReactNode; className?: string }) => (
   <li className="flex items-start gap-2">
     <span className="w-1.5 h-1.5 rounded-full bg-primary/50 mt-2 shrink-0"></span>
-    <span className="flex-1">{children}</span>
+    <span className={`flex-1 ${className}`}>{children}</span>
   </li>
 );

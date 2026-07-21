@@ -54,7 +54,7 @@ export const Home = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 sm:gap-5">
               <a
-                href="https://map.naver.com/p/entry/place/1608572380?c=15.00,0,0,0,dh"
+                href="https://map.naver.com/p/entry/place/2056101308?c=15.00,0,0,0,dh&placePath=%2Fticket%3FfromPanelNum%3D1%26additionalHeight%3D76%26timestamp%3D202607211725%26locale%3Dko%26svcName%3Dmap_pcv5"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-6 py-4 sm:px-10 sm:py-5 bg-primary text-white rounded-full font-bold hover:bg-secondary transition-all flex items-center justify-center gap-3 shadow-2xl shadow-primary/30 transform hover:-translate-y-1"
@@ -62,11 +62,11 @@ export const Home = () => {
                 상담예약신청 <ArrowRight size={20} />
               </a>
               <a
-                href="tel:0507-1359-0830"
+                href="tel:0507-1421-9002"
                 className="px-6 py-4 sm:px-10 sm:py-5 bg-white text-slate-700 border border-slate-200 rounded-full font-bold hover:bg-slate-50 transition-all shadow-lg transform hover:-translate-y-1 flex items-center justify-center gap-3"
               >
                 <Phone size={20} className="text-primary" /> 전화상담
-                0507-1359-0830
+                0507-1421-9002
               </a>
             </div>
           </motion.div>
@@ -917,7 +917,7 @@ export const Home = () => {
                       <p className="text-xs font-bold opacity-60 uppercase">
                         Call Us
                       </p>
-                      <p className="text-xl font-black">0507-1359-0830</p>
+                      <p className="text-xl font-black">0507-1421-9002</p>
                     </div>
                   </div>
                   <div className="flex items-center gap-4">
@@ -947,14 +947,14 @@ export const Home = () => {
                 </p>
                 <div className="space-y-4">
                   <a
-                    href="tel:0507-1359-0830"
+                    href="tel:0507-1421-9002"
                     className="w-full py-5 bg-slate-900 text-white rounded-2xl font-black hover:bg-slate-800 transition-all text-center block flex items-center justify-center gap-3 shadow-lg shadow-slate-900/10"
                   >
                     <Phone size={20} />
                     전화로 즉시 상담하기
                   </a>
                   <a
-                    href="https://map.naver.com/p/entry/place/1608572380?c=15.00,0,0,0,dh"
+                    href="https://map.naver.com/p/entry/place/2056101308?c=15.00,0,0,0,dh&placePath=%2Fticket%3FfromPanelNum%3D1%26additionalHeight%3D76%26timestamp%3D202607211725%26locale%3Dko%26svcName%3Dmap_pcv5"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-full py-5 bg-primary text-white rounded-2xl font-black hover:bg-secondary transition-all shadow-xl shadow-primary/20 text-center block flex items-center justify-center gap-3"
@@ -1001,7 +1001,7 @@ export const Home = () => {
                   <div>
                     <h5 className="font-bold text-slate-900 mb-1">전화번호</h5>
                     <p className="text-sm text-slate-500 font-bold text-lg">
-                      0507-1359-0830
+                      0507-1421-9002
                     </p>
                   </div>
                 </div>
@@ -1018,7 +1018,7 @@ export const Home = () => {
                 </div>
               </div>
               <a
-                href="https://map.naver.com/p/entry/place/1608572380?c=15.00,0,0,0,dh"
+                href="https://map.naver.com/p/entry/place/2056101308?c=15.00,0,0,0,dh&placePath=%2Fticket%3FfromPanelNum%3D1%26additionalHeight%3D76%26timestamp%3D202607211725%26locale%3Dko%26svcName%3Dmap_pcv5"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-12 inline-flex items-center gap-2 text-primary font-bold hover:underline"
@@ -1036,7 +1036,7 @@ export const Home = () => {
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
                 className="absolute inset-0"
-                title="대구 음주운전 재범방지 교육심리상담센터 위치"
+                title="대구음주운전재범방지교육상담센터 위치"
               ></iframe>
             </div>
           </div>

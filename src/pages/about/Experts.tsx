@@ -143,7 +143,7 @@ export const Experts = () => {
               상담전문가
             </h1>
             <p className="text-lg text-slate-600 font-medium max-w-3xl mx-auto break-keep">
-              대구 음주운전 재범방지 교육심리상담센터는 단순한 처벌이 아닌 행동
+              대구음주운전재범방지교육상담센터는 단순한 처벌이 아닌 행동
               변화와 재범 방지를 목표로 합니다.
             </p>
           </motion.div>

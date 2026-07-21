@@ -149,7 +149,7 @@ export const Column = () => {
               전문가 칼럼
             </h1>
             <p className="text-lg text-slate-600 font-medium max-w-3xl mx-auto break-keep">
-              대구 음주운전 재범방지 교육심리상담센터의 대표 전문가들이
+              대구음주운전재범방지교육상담센터의 대표 전문가들이
               전해드리는 사법 대응 가이드, 심리 분석 및 극복 솔루션입니다.
             </p>
           </motion.div>
@@ -247,7 +247,7 @@ export const Column = () => {
             </p>
             <div className="pt-4 flex flex-col sm:flex-row justify-center gap-4">
               <a
-                href="tel:0507-1359-0830"
+                href="tel:0507-1421-9002"
                 className="px-8 py-4 bg-primary hover:bg-secondary text-white rounded-full font-bold shadow-lg shadow-primary/20 transition-all text-sm"
               >
                 전화 전문 상담 요청하기

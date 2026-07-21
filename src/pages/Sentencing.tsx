@@ -282,10 +282,10 @@ const Modal: React.FC<{ isOpen: boolean, onClose: () => void, data: any }> = ({ 
             </div>
           </div>
           <div className="sticky bottom-0 bg-white border-t border-slate-100 p-6 flex flex-col sm:flex-row gap-3">
-            <a href="https://map.naver.com/p/entry/place/1608572380?c=15.00,0,0,0,dh" target="_blank" rel="noopener noreferrer" className="flex-1 py-4 bg-primary text-white text-center font-bold rounded-full hover:bg-primary/90 transition-colors shadow-lg">
+            <a href="https://map.naver.com/p/entry/place/2056101308?c=15.00,0,0,0,dh&placePath=%2Fticket%3FfromPanelNum%3D1%26additionalHeight%3D76%26timestamp%3D202607211725%26locale%3Dko%26svcName%3Dmap_pcv5" target="_blank" rel="noopener noreferrer" className="flex-1 py-4 bg-primary text-white text-center font-bold rounded-full hover:bg-primary/90 transition-colors shadow-lg">
               상담 예약하기
             </a>
-            <a href="tel:0507-1359-0830" className="flex-1 py-4 bg-slate-100 text-slate-900 text-center font-bold rounded-full hover:bg-slate-200 transition-colors">
+            <a href="tel:0507-1421-9002" className="flex-1 py-4 bg-slate-100 text-slate-900 text-center font-bold rounded-full hover:bg-slate-200 transition-colors">
               전화 문의
             </a>
           </div>
@@ -465,7 +465,7 @@ export const Sentencing = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a 
-                href="https://map.naver.com/p/entry/place/1608572380?c=15.00,0,0,0,dh" 
+                href="https://map.naver.com/p/entry/place/2056101308?c=15.00,0,0,0,dh&placePath=%2Fticket%3FfromPanelNum%3D1%26additionalHeight%3D76%26timestamp%3D202607211725%26locale%3Dko%26svcName%3Dmap_pcv5" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-10 py-5 bg-white text-primary font-black rounded-full hover:bg-slate-50 transition-all shadow-lg"
@@ -473,10 +473,10 @@ export const Sentencing = () => {
                 대구 음주운전 상담 예약하기
               </a>
               <a 
-                href="tel:0507-1359-0830" 
+                href="tel:0507-1421-9002" 
                 className="px-10 py-5 bg-primary-foreground/10 text-white font-black rounded-full hover:bg-primary-foreground/20 transition-all border border-white/20"
               >
-                빠른 전화 문의 (0507-1359-0830)
+                빠른 전화 문의 (0507-1421-9002)
               </a>
             </div>
           </div>

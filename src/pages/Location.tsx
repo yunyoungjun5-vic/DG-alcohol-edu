@@ -30,7 +30,7 @@ export const Location = () => {
             오시는 길
           </motion.h1>
           <p className="text-slate-400 text-xl lg:text-2xl max-w-2xl mx-auto font-bold leading-relaxed break-keep">
-            대구 음주운전 재범방지 교육심리상담센터로 오시는 길을 편리하게 안내해 드립니다.
+            대구음주운전재범방지교육상담센터로 오시는 길을 편리하게 안내해 드립니다.
           </p>
         </div>
       </section>
@@ -64,7 +64,7 @@ export const Location = () => {
                   </div>
                   <div>
                     <h5 className="font-bold text-slate-900 text-base sm:text-lg mb-1">전화번호 및 문의</h5>
-                    <p className="text-sm sm:text-base text-slate-600 font-bold">0507-1359-0830</p>
+                    <p className="text-sm sm:text-base text-slate-600 font-bold">0507-1421-9002</p>
                     <p className="text-xs text-slate-400 mt-0.5">상담 중인 경우 통화가 어려울 수 있으니 부재 시 문자 남겨주시면 연락 드리겠습니다.</p>
                   </div>
                 </div>
@@ -92,7 +92,7 @@ export const Location = () => {
 
               <div className="mt-10 sm:mt-12">
                 <a 
-                  href="https://map.naver.com/p/entry/place/1608572380?c=15.00,0,0,0,dh" 
+                  href="https://map.naver.com/p/entry/place/2056101308?c=15.00,0,0,0,dh&placePath=%2Fticket%3FfromPanelNum%3D1%26additionalHeight%3D76%26timestamp%3D202607211725%26locale%3Dko%26svcName%3Dmap_pcv5" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2.5 px-6 py-3.5 bg-primary text-white rounded-xl font-bold hover:bg-secondary transition-all shadow-lg shadow-primary/10 text-sm sm:text-base transform hover:-translate-y-0.5"
@@ -113,7 +113,7 @@ export const Location = () => {
                 loading="lazy" 
                 referrerPolicy="no-referrer-when-downgrade"
                 className="absolute inset-0"
-                title="대구 음주운전 재범방지 교육심리상담센터 위치"
+                title="대구음주운전재범방지교육상담센터 위치"
               ></iframe>
             </div>
           </div>
@@ -195,11 +195,11 @@ export const Location = () => {
         <div className="max-w-4xl mx-auto px-4 text-center relative z-10">
           <h2 className="text-3xl sm:text-4xl font-extrabold mb-6 tracking-tight">전문가와의 1:1 예약제 긴급 면담</h2>
           <p className="text-slate-200 text-base sm:text-lg mb-10 max-w-2xl mx-auto font-medium leading-relaxed break-keep">
-            음주운전 후 면허 취소, 정지, 처벌 위기에 처하셨다면 즉시 전문 교육심리상담센터의 도움을 받아야 가장 확실한 반성과 재발 방지 대책을 마련할 수 있습니다.
+            음주운전 후 면허 취소, 정지, 처벌 위기에 처하셨다면 즉시 대구음주운전재범방지교육상담센터의 도움을 받아야 가장 확실한 반성과 재발 방지 대책을 마련할 수 있습니다.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <a 
-              href="https://map.naver.com/p/entry/place/1608572380?c=15.00,0,0,0,dh" 
+              href="https://map.naver.com/p/entry/place/2056101308?c=15.00,0,0,0,dh&placePath=%2Fticket%3FfromPanelNum%3D1%26additionalHeight%3D76%26timestamp%3D202607211725%26locale%3Dko%26svcName%3Dmap_pcv5" 
               target="_blank" 
               rel="noopener noreferrer"
               className="px-8 py-4 bg-white text-primary rounded-xl font-black text-sm hover:bg-slate-50 transition-all shadow-xl shadow-slate-900/10 flex items-center justify-center gap-2"
@@ -207,7 +207,7 @@ export const Location = () => {
               네이버 실시간 예약 <ArrowRight size={16} />
             </a>
             <a 
-              href="tel:0507-1359-0830"
+              href="tel:0507-1421-9002"
               className="px-8 py-4 bg-primary-dark/40 hover:bg-primary-dark/65 border border-white/20 rounded-xl font-bold text-sm text-white transition-all flex items-center justify-center gap-2"
             >
               전화로 빠른 사전 문의
