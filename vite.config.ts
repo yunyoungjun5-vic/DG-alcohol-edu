@@ -1,12 +1,45 @@
 import tailwindcss from '@tailwindcss/vite';
 import react from '@vitejs/plugin-react';
+import Sitemap from 'vite-plugin-sitemap';
 import path from 'path';
 import {defineConfig, loadEnv} from 'vite';
+
+const routes = [
+  '/about',
+  '/about/director',
+  '/about/experts',
+  '/about/media',
+  '/about/partnerships',
+  '/about/location',
+  '/services/counseling',
+  '/services/education',
+  '/services/treatment',
+  '/program',
+  '/cases',
+  '/library/column',
+  '/library/cases',
+  '/online-program',
+  '/sentencing',
+];
 
 export default defineConfig(({mode}) => {
   const env = loadEnv(mode, '.', '');
   return {
-    plugins: [react(), tailwindcss()],
+    plugins: [
+      react(),
+      tailwindcss(),
+      Sitemap({
+        hostname: 'https://daegu-dui.mindgate.co.kr/',
+        dynamicRoutes: routes,
+        generateRobotsTxt: true,
+        robots: [
+          {
+            userAgent: '*',
+            allow: '/',
+          },
+        ],
+      }),
+    ],
     define: {
       'process.env.GEMINI_API_KEY': JSON.stringify(env.GEMINI_API_KEY),
     },
