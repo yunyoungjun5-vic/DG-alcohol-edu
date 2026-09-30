@@ -13,10 +13,14 @@ import {
   Calendar,
 } from "lucide-react";
 import { Link } from "react-router-dom";
+import { HomePopup } from "../components/HomePopup";
 
 export const Home = () => {
   return (
     <div className="pt-[104px] lg:pt-[140px]">
+      {/* Landing Page Notice Popup */}
+      <HomePopup />
+
       {/* Hero Section - Premium Medical Style */}
       <section className="relative min-h-[70vh] lg:h-[85vh] flex items-center overflow-hidden">
         <div className="absolute inset-0 z-0">

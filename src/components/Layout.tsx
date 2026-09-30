@@ -41,7 +41,6 @@ export const Header = () => {
     },
     { name: "양형자료", path: "/sentencing" },
     { name: "재범방지 프로그램", path: "/program" },
-    { name: "비대면 프로그램", path: "/online-program" },
     {
       name: "자료실",
       path: "/library",
