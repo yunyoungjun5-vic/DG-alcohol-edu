@@ -72,16 +72,8 @@ const expertGroups = [
         "국제마음치유연구원 원장 / 심리상담학과 교수 / 한국심리상담전문학회 학회장",
     },
   ],
-  // 4행 3열
+  // 4행 2열
   [
-    {
-      name: "이희철 교수",
-      image:
-        "https://res.cloudinary.com/dxjz9ksjg/image/upload/v1779201660/%EC%9D%B4%ED%9D%AC%EC%B2%A0_%EA%B5%90%EC%88%98_1_lvwzev.png",
-      title: "상담심리 전문가 / 심리학 교수",
-      desc: "음주운전 가해자 인지행동 교정 및 상담 프로그램 연구.",
-      roles: "상담심리 전문가 / 심리학 교수",
-    },
     {
       name: "유보경 선생님",
       image:
@@ -179,7 +171,11 @@ export const Experts = () => {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: idx * 0.1 }}
-                  className="group flex flex-col items-center text-center w-full sm:w-[calc(50%-2rem)] md:w-[calc(33.333%-2rem)] lg:w-[calc(33.333%-3rem)] max-w-sm"
+                  className={`group flex flex-col items-center text-center w-full max-w-sm ${
+                    group.length === 2
+                      ? "sm:w-[calc(50%-2rem)] md:w-[calc(50%-2rem)] lg:w-[calc(50%-3rem)]"
+                      : "sm:w-[calc(50%-2rem)] md:w-[calc(33.333%-2rem)] lg:w-[calc(33.333%-3rem)]"
+                  }`}
                 >
                   <div className="w-48 h-48 rounded-full overflow-hidden mb-6 shadow-xl shadow-slate-200/50 border-4 border-white group-hover:scale-105 transition-transform duration-500">
                     <img
